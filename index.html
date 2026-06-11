@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:title" content="Acompanhantes Brasil - Encontre Acompanhantes Premium">
+    <meta property="og:description" content="Catálogo completo de acompanhantes em todas as cidades do Brasil. Perfis verificados, fotos de alta qualidade e atendimento garantido.">
+    <meta property="og:image" content="https://acompanhantebrasil.github.io/images/og-image.jpg">
+    <meta property="og:url" content="https://acompanhantebrasil.github.io">
+    <meta property="og:type" content="website">
+    <meta name="description" content="Catálogo completo de acompanhantes em todas as cidades do Brasil. Perfis verificados, fotos de alta qualidade e atendimento garantido.">
+    <meta name="theme-color" content="#D4AF37">
+    <title>Acompanhantes Brasil - Encontre Acompanhantes Premium</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <h1 class="logo">✨ Acompanhantes Brasil</h1>
+                <div class="header-actions">
+                    <input type="text" id="searchInput" class="search-box" placeholder="Buscar por nome ou cidade...">
+                    <button class="btn-contact">📞 Contato</button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h2>Encontre a Garota Perfeita</h2>
+            <p>Catálogo completo de garotas de programa premium em todas as cidades do Brasil</p>
+            <button class="btn-primary">Explorar Agora</button>
+        </div>
+    </section>
+
+    <!-- Cities Section -->
+    <section class="cities-section">
+        <div class="container">
+            <h3>Cidades Populares</h3>
+            <div class="cities-grid">
+                <a href="#" class="city-card" data-city="São Paulo">São Paulo</a>
+                <a href="#" class="city-card" data-city="Rio de Janeiro">Rio de Janeiro</a>
+                <a href="#" class="city-card" data-city="Brasília">Brasília</a>
+                <a href="#" class="city-card" data-city="Fortaleza">Fortaleza</a>
+                <a href="#" class="city-card" data-city="Salvador">Salvador</a>
+                <a href="#" class="city-card" data-city="Belo Horizonte">Belo Horizonte</a>
+                <a href="#" class="city-card" data-city="Manaus">Manaus</a>
+                <a href="#" class="city-card" data-city="Curitiba">Curitiba</a>
+                <a href="#" class="city-card" data-city="Recife">Recife</a>
+                <a href="#" class="city-card" data-city="Porto Alegre">Porto Alegre</a>
+                <a href="#" class="city-card" data-city="Belém">Belém</a>
+                <a href="#" class="city-card" data-city="Goiânia">Goiânia</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Profiles Section -->
+    <section class="profiles-section">
+        <div class="container">
+            <h3>Garotas Online Agora</h3>
+            <div id="profilesGrid" class="profiles-grid">
+                <!-- Profiles loaded by JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Share Section -->
+    <section class="share-section">
+        <div class="container">
+            <h3>Compartilhe no Facebook</h3>
+            <p>Quanto mais compartilhamentos, mais cliques você recebe!</p>
+            <div class="share-buttons">
+                <button id="shareBtn" class="btn-share facebook">f Compartilhar no Facebook</button>
+                <button id="whatsappBtn" class="btn-share whatsapp">W Enviar no WhatsApp</button>
+                <button id="copyBtn" class="btn-share copy">🔗 Copiar Link</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Profile Modal -->
+    <div id="profileModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <div id="modalBody">
+                <!-- Profile details loaded by JavaScript -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>&copy; 2026 Acompanhantes Brasil. Todos os direitos reservados.</p>
+        <p>Conteúdo para maiores de 18 anos | Discrição garantida</p>
+    </footer>
+
+    <!-- Monetag Script -->
+    <script async src="https://cdn.monetag.com/tags/YOUR_MONETAG_TOKEN.js"></script>
+
+    <!-- AdSterra Script -->
+    <script src="https://cdn.adsterra.com/js/YOUR_ADSTERRA_TOKEN.js"></script>
+
+    <!-- Main App Script -->
+    <script src="./js/app.js"></script>
+</body>
+</html>
